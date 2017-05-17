@@ -32,7 +32,7 @@ function Vehicle(x, y, dna) {
     this.dna[1] = random(-2, 2);
     // Food perception
     this.dna[2] = random(0, 100);
-    // Poision Percepton
+    // Poison Percepton
     this.dna[3] = random(0, 100);
   } else {
     // Mutation
